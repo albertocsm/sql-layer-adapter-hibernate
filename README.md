@@ -8,7 +8,7 @@ This project contains the specific files required to use the [Hibernate ORM](htt
         <dependency>
           <groupId>com.foundationdb</groupId>
           <artifactId>fdb-sql-layer-hibernate</groupId>
-          <version>1.9.4</version>
+          <version>1.9.5</version>
         </dependency>
 
 Second, update your hibernate.properties file for your project to the following:
