@@ -47,14 +47,14 @@
 
     <distributionManagement>
         <repository>
-            <id>AlibanLocal</id>
-            <name>Akiban Local release repository</name>
-            <url>http://sneezy:8095/nexus/content/repostories/releases/</url>
+            <id>FDBLocal</id>
+            <name>FoundationDB Local release repository</name>
+            <url>http://happy:8095/nexus/content/repostories/releases/</url>
         </repository>
         <snapshotRepository>
-            <id>AkibanLocal</id>
-            <name>Akiban Local Snapshot Repository</name>
-            <url>http://sneezy:8095/nexus/content/repositories/snapshots/</url>
+            <id>FDBLocal</id>
+            <name>FoundationDB Local Snapshot Repository</name>
+            <url>http://happy:8095/nexus/content/repositories/snapshots/</url>
        </snapshotRepository>
     </distributionManagement>
 
