@@ -45,19 +45,6 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
-    <distributionManagement>
-        <repository>
-            <id>FDBLocal</id>
-            <name>FoundationDB Local release repository</name>
-            <url>http://happy:8095/nexus/content/repostories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>FDBLocal</id>
-            <name>FoundationDB Local Snapshot Repository</name>
-            <url>http://happy:8095/nexus/content/repositories/snapshots/</url>
-       </snapshotRepository>
-    </distributionManagement>
-
     <dependencies>
         <dependency>
             <groupId>com.foundationdb</groupId>
