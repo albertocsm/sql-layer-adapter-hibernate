@@ -34,7 +34,7 @@ import org.hibernate.dialect.function.VarArgsSQLFunction;
 import org.hibernate.engine.spi.RowSelection;
 import org.hibernate.exception.spi.TemplatedViolatedConstraintNameExtracter;
 import org.hibernate.exception.spi.ViolatedConstraintNameExtracter;
-import org.hibernate.id.SequenceGenerator;
+import org.hibernate.id.IdentityGenerator;
 import org.hibernate.internal.util.JdbcExceptionHelper;
 import org.hibernate.type.StandardBasicTypes;
 
@@ -319,7 +319,7 @@ public class FoundationDBSQLDialect extends Dialect {
 
     @Override
     public Class getNativeIdentifierGeneratorClass() {
-        return SequenceGenerator.class;
+        return IdentityGenerator.class;
     }
 
     // Overridden limit/offset support ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
