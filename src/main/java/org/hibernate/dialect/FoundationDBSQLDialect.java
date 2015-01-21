@@ -48,7 +48,7 @@ public class FoundationDBSQLDialect extends Dialect {
         registerColumnType( Types.BINARY, 1024, "char($l) for bit data");
         registerColumnType( Types.BINARY, "char(1024) for bit data");
         registerColumnType( Types.NUMERIC, "decimal($p,$s)");
-        registerColumnType (Types.LONGVARCHAR, "longtext");
+        registerColumnType (Types.LONGVARCHAR, "clob");
 
         registerFunction( "ascii", new StandardSQLFunction( "ascii", StandardBasicTypes.INTEGER ) );
         registerFunction( "bin", new StandardSQLFunction( "bin", StandardBasicTypes.STRING ) );
